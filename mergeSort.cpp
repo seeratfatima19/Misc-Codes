@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-#define INFINI_TY 25567
+#define INFINI_TY 25567				// sentinel value
 
 void merge(int*& arr, int p, int q, int r)
 {
@@ -62,7 +62,7 @@ void mergeSort(int*& arr, int p ,int r)
 
 void mergeSort(int*& arr,int sz)
 {
-	mergeSort(arr, 0,sz-1);
+	mergeSort(arr, 0,sz-1); 	// wrapper function for recursive merge sort
 }
 
 
