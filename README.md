@@ -1,2 +1,2 @@
-# MergeSort
-Merge Sort program in cpp
+# Misc. Codes
+Some misc. practice codes 
